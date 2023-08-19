@@ -60,7 +60,7 @@ pub fn convert(in_path: &Path, out_path: &Path, mask_u8_opt: Option<u8>) -> () {
         // let x_offset = if w > h { (w - h) / 2 } else { 0 };
         // let y_offset = if h > w { (h - w) / 2 } else { 0 };
         let x_offset = 0;
-        let y_offset = 0;;;;;;;/mnnnnn ,l.
+        let y_offset = 0;
         let mut output_buffer = vec![0b000_000_00u8; w * h];
 
         let in_file_name = in_file.file_name();
