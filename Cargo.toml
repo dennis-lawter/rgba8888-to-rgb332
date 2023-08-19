@@ -2,8 +2,11 @@
 name = "rgba8888-to-rgb332"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "A cli tool that will process all files found in an input folder, transforming them from a file format containing full 16 million color PNG files to 8-bit raw data files."
+license = "MIT"
+repository = "https://github.com/dennis-lawter/rgba8888-to-rgb332"
+keywords = ["rgb", "png", "8-bit"]
+readme = "README.md"
 
 [dependencies]
 clap = { version = "4.3.22", features = ["derive", "cargo"] }
