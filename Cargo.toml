@@ -1,6 +1,6 @@
 [package]
 name = "rgba8888-to-rgb332"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "A cli tool that will process all files found in an input folder, transforming them from a file format containing full 16 million color PNG files to 8-bit raw data files."
 license = "MIT"
